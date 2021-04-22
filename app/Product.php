@@ -10,6 +10,11 @@ class Product extends Model
         'name',
     ];
 
+    public function track()
+    {
+        $this->stock->each->track();
+    }
+
     public function inStock()
     {
         return $this->stock()->where('in_stock', true)->exists();

@@ -1,0 +1,32 @@
+# In Stock App
+
+Build a site that tracks the availability and price of certain products
+across multiple retailers.
+
+Each product might be available from certain retailers, but we have to check if
+it's in stock.
+
+Key words:
+
+- stock
+- availability
+- products
+- retailers
+
+### product
+
+- Nintento Switch
+
+### retailers
+
+- Best Buy
+- Amazon
+- Target
+- Walmart
+
+### stock
+
+- product_id
+- retailer_id
+- in_stock
+- price
